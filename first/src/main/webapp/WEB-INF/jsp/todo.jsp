@@ -7,9 +7,13 @@
 </head>
 
 <body>
-	Welcome ${name}!!<a href = "/list-todos">Click here</a> to manage your TODOs
+Add todo page for ${name}
+<form method="post">
+	Description : <input name="desc" type="text"/> 
+	<input type="submit"/>	
+</form>
 	<script src="webjars/jquery/1.9.1/jquery.min.js"></script>
-		<script src="webjars/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script src="webjars/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </body>
 
 </html>
